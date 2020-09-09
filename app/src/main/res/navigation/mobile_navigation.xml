@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tournament">
+
+    <fragment
+        android:id="@+id/navigation_tournament"
+        android:name="com.cricmahalla.ui.tournament.TournamentFragment"
+        android:label="Tournament"
+        tools:layout="@layout/fragment_tournament"/>
+    <fragment
+        android:id="@+id/navigation_teams"
+        android:name="com.cricmahalla.ui.teams.TeamsFragment"
+        android:label="Teams"
+        tools:layout="@layout/fragment_teams"/>
+    <fragment
+        android:id="@+id/navigation_scorer"
+        android:name="com.cricmahalla.ui.scorer.ScorerFragment"
+        android:label="Scorer"
+        tools:layout="@layout/fragment_scorer"/>
+
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cric Mahalla</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">SSBj5IuHdEVM79gWEZRLe5BvhhK1V19NcnpT1MGb</string>
+    <string name="back4app_client_key">zh9KbgUEgqU8nTUm5YFi5ABSMR3sZafKLXjuRGIU</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
